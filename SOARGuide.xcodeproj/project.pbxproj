@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		BE40061122243111003AB233 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE40061022243111003AB233 /* AppDelegate.swift */; };
-		BE40061322243111003AB233 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE40061222243111003AB233 /* ViewController.swift */; };
+		BE40061322243111003AB233 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE40061222243111003AB233 /* HomeController.swift */; };
 		BE40061622243111003AB233 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE40061422243111003AB233 /* Main.storyboard */; };
 		BE40061822243114003AB233 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE40061722243114003AB233 /* Assets.xcassets */; };
 		BE40061B22243114003AB233 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE40061922243114003AB233 /* LaunchScreen.storyboard */; };
 		BE40062622243114003AB233 /* SOARGuideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE40062522243114003AB233 /* SOARGuideTests.swift */; };
 		BE40063122243114003AB233 /* SOARGuideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE40063022243114003AB233 /* SOARGuideUITests.swift */; };
+		BE40063F222436E8003AB233 /* ContentDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE40063E222436E8003AB233 /* ContentDataSource.swift */; };
+		BE40064122257E2B003AB233 /* ContentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE40064022257E2B003AB233 /* ContentCollectionViewCell.swift */; };
+		BE40064722258004003AB233 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE40064622258004003AB233 /* UIViewExtension.swift */; };
+		BE40064922258AB1003AB233 /* MainLabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE40064822258AB1003AB233 /* MainLabelViewController.swift */; };
+		BE40064B22258C3E003AB233 /* SignsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE40064A22258C3E003AB233 /* SignsViewController.swift */; };
+		BE40064D22258C6A003AB233 /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE40064C22258C6A003AB233 /* OptionsViewController.swift */; };
+		BE40064F2229EF60003AB233 /* SpeechBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE40064E2229EF60003AB233 /* SpeechBubble.swift */; };
+		BE400651222BA8FD003AB233 /* Paddle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE400650222BA8FC003AB233 /* Paddle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +44,7 @@
 /* Begin PBXFileReference section */
 		BE40060D22243111003AB233 /* SOARGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SOARGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE40061022243111003AB233 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BE40061222243111003AB233 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE40061222243111003AB233 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		BE40061522243111003AB233 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE40061722243114003AB233 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE40061A22243114003AB233 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +55,14 @@
 		BE40062C22243114003AB233 /* SOARGuideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SOARGuideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE40063022243114003AB233 /* SOARGuideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOARGuideUITests.swift; sourceTree = "<group>"; };
 		BE40063222243114003AB233 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE40063E222436E8003AB233 /* ContentDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentDataSource.swift; sourceTree = "<group>"; };
+		BE40064022257E2B003AB233 /* ContentCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCollectionViewCell.swift; sourceTree = "<group>"; };
+		BE40064622258004003AB233 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		BE40064822258AB1003AB233 /* MainLabelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainLabelViewController.swift; sourceTree = "<group>"; };
+		BE40064A22258C3E003AB233 /* SignsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignsViewController.swift; sourceTree = "<group>"; };
+		BE40064C22258C6A003AB233 /* OptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
+		BE40064E2229EF60003AB233 /* SpeechBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechBubble.swift; sourceTree = "<group>"; };
+		BE400650222BA8FC003AB233 /* Paddle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paddle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +114,10 @@
 			isa = PBXGroup;
 			children = (
 				BE40061022243111003AB233 /* AppDelegate.swift */,
-				BE40061222243111003AB233 /* ViewController.swift */,
+				BE40064522257E8D003AB233 /* Helpers */,
+				BE40064422257E86003AB233 /* Controller */,
+				BE40064322257E78003AB233 /* View */,
+				BE40064222257E68003AB233 /* Model */,
 				BE40061422243111003AB233 /* Main.storyboard */,
 				BE40061722243114003AB233 /* Assets.xcassets */,
 				BE40061922243114003AB233 /* LaunchScreen.storyboard */,
@@ -123,6 +142,43 @@
 				BE40063222243114003AB233 /* Info.plist */,
 			);
 			path = SOARGuideUITests;
+			sourceTree = "<group>";
+		};
+		BE40064222257E68003AB233 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BE40063E222436E8003AB233 /* ContentDataSource.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BE40064322257E78003AB233 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BE40064E2229EF60003AB233 /* SpeechBubble.swift */,
+				BE400650222BA8FC003AB233 /* Paddle.swift */,
+				BE40064022257E2B003AB233 /* ContentCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BE40064422257E86003AB233 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BE40064822258AB1003AB233 /* MainLabelViewController.swift */,
+				BE40064A22258C3E003AB233 /* SignsViewController.swift */,
+				BE40064C22258C6A003AB233 /* OptionsViewController.swift */,
+				BE40061222243111003AB233 /* HomeController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BE40064522257E8D003AB233 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BE40064622258004003AB233 /* UIViewExtension.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +312,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE40061322243111003AB233 /* ViewController.swift in Sources */,
+				BE40064922258AB1003AB233 /* MainLabelViewController.swift in Sources */,
+				BE40064D22258C6A003AB233 /* OptionsViewController.swift in Sources */,
+				BE40064B22258C3E003AB233 /* SignsViewController.swift in Sources */,
+				BE40064722258004003AB233 /* UIViewExtension.swift in Sources */,
+				BE40064122257E2B003AB233 /* ContentCollectionViewCell.swift in Sources */,
+				BE40063F222436E8003AB233 /* ContentDataSource.swift in Sources */,
+				BE40064F2229EF60003AB233 /* SpeechBubble.swift in Sources */,
+				BE400651222BA8FD003AB233 /* Paddle.swift in Sources */,
+				BE40061322243111003AB233 /* HomeController.swift in Sources */,
 				BE40061122243111003AB233 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,6 +499,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3CGXTTVKR2;
 				INFOPLIST_FILE = SOARGuide/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,6 +518,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3CGXTTVKR2;
 				INFOPLIST_FILE = SOARGuide/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
